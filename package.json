@@ -5,13 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-     "build": "npx vite build",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start-server": "node server.js"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "express": "^4.21.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
